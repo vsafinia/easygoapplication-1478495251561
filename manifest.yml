@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: easygoapplication
+  host: easygoapplication
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-n5
+  buildpack: php_buildpack
